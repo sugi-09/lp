@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site</title>
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header-logo">
+      <a href="#"><span>LOGO</span></a>
+    </div>
+    <!-- pc-nav -->
+    <nav class="pc-nav">
+      <ul class="pc-nav-list">
+        <li><a href="#about">About us</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#FAQ">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- /pc-nav -->
+  </header>
+  <!-- /header -->
+
+  
+  
+  <main>
+    <div class="container">
+
+      <!-- main-visual -->
+      <div class="main-visual">
+        <img src="images/img_5.jpg" alt="">
+        <h1 class="mv-title">タイトル</h1>
+      </div>
+      <!-- /main-visual -->
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="section-inner about">
+          <div class="section-body">
+            <div class="section-header">
+              <h2 class="section__title">About Us</h2>
+              <span class="section__subtitle">私たちについて</span>
+            </div>
+          </div>
+          <div class="section__img">
+            <img src="" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- /About -->
+
+      <!-- Service -->
+
+      <div class="section-header">
+        <h2 class="section__title">Service</h2>
+        <span class="section__subtitle">提供サービス</span>
+      </div>
+
+      <section class="section" id="service">
+        <div class="card__list">
+          <div class="card">
+            <a href="#">
+              <div class="card__image"><img src="images/img_1.jpg"></div>
+              <div class="card__body">
+                <div class="card__heading">
+                  <h3 class="card__title">Service</h3>
+                  <div class="card__subtitle">サービス</div>
+                </div>
+                <p class="card__desc">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <div class="card__image"><img src="images/img_6.jpg"></div>
+              <div class="card__body">
+                <div class="card__heading">
+                  <h3 class="card__title">Service</h3>
+                  <div class="card__subtitle">サービス</div>
+                </div>
+                <p class="card__desc">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <div class="card__image"><img src="images/img_7.jpg"></div>
+              <div class="card__body">
+                <div class="card__heading">
+                  <h3 class="card__title">Service</h3>
+                  <div class="card__subtitle">サービス</div>
+                </div>
+                <p class="card__desc">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+    </div>
+    <a href="#" class="button button--primary">
+      詳しくはこちら
+    </a>
+    </div>
+    </section>
+    <!-- /service -->
+
+    <div class="section-header">
+      <h2 class="section__title">FAQ</h2>
+      <span class="section__subtitle">よくあるご質問</span>
+    </div>
+
+    <section id="FAQ" class="section">
+      <dl class="accordion">
+        <div class="accordion_container">
+          <dt class="accordion_title">ここに質問文が入ります</dt>
+          <dd class="accordion_inner">ここに回答文が入ります</dd>
+        </div>
+        <div class="accordion_container">
+          <dt class="accordion_title">ここに質問文が入ります</dt>
+          <dd class="accordion_inner">ここに回答文が入ります</dd>
+        </div>
+        <div class="accordion_container">
+          <dt class="accordion_title">ここに質問文が入ります</dt>
+          <dd class="accordion_inner">ここに回答文が入ります</dd>
+        </div>
+      </dl>
+
+    </section>
+
+    <div class="section-header">
+      <h2 class="section__title">Contact</h2>
+      <span class="section__subtitle">ご連絡</span>
+    </div>
+
+    <section class="section" id="contact">
+      <div class="contact-form">
+        <form action="" method="post">
+          <div class="form-group">
+            <label for="name" class="label">お名前</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="company" class="label">会社名</label>
+            <input type="text" id="company" name="company" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="label">メールアドレス</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="label">お問い合わせ内容</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="button button--primary">確認</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="copyright">(c) s-tec</div>
+  </footer>
+  <!-- /footer -->
+
+  <script src="main.js"></script>
+</body>
+
+</html>
